@@ -1,8 +1,8 @@
 // "https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=0&longitude=0"
 
 import { useEffect, useState } from "react";
-
 import styles from "./Form.module.css";
+import Spinner from "./Spinner";
 import Button from "../components/Button";
 import BackButton from "./BackButton";
 import { useUrlPosition } from "../hooks/useUrlPosition";
@@ -56,8 +56,9 @@ function Form() {
     [lat, lng]
   );
 
-  console.log(isLoadingGeocoding, country);
+  console.log(country);
 
+  if (isLoadingGeocoding) return <Spinner />;
   if (geocodingError) return <Message message={geocodingError} />;
   return (
     <form className={styles.form}>
