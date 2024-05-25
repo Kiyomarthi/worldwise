@@ -9,6 +9,7 @@ import { useUrlPosition } from "../hooks/useUrlPosition";
 import Message from "./Message";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { useCities } from "../contexts/CitiesContext";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -21,6 +22,7 @@ export function convertToEmoji(countryCode) {
 const BASE_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
 function Form() {
+  const { createCity } = useCities();
   const [cityName, setCityName] = useState("");
   const [country, setCountry] = useState("");
   const [date, setDate] = useState(new Date());
@@ -59,8 +61,6 @@ function Form() {
     [lat, lng]
   );
 
-  console.log(country);
-
   function handleSubmit(e) {
     e.preventDefault();
     if (!date && !cityName) return;
@@ -72,6 +72,7 @@ function Form() {
       notes,
       position: { lat, lng },
     };
+    createCity(newCity);
   }
 
   if (isLoadingGeocoding) return <Spinner />;
