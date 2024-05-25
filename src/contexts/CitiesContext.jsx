@@ -44,7 +44,7 @@ function CitiesProvider({ children }) {
         headers: { "Content-Type": "aplication/json" },
       });
       const data = await res.json();
-      console.log(data);
+      setCities([...cities, data]);
     } catch {
       alert("there is a problem");
     } finally {
