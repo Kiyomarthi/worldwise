@@ -52,4 +52,4 @@ function useAuth() {
   return context;
 }
 
-export { AuthContext, useAuth };
+export { authProvider, useAuth };
