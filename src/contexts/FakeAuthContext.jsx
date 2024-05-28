@@ -1,12 +1,7 @@
 import { useReducer } from "react";
 import { useContext } from "react";
-import { createContext } from "react";
+import { AuthContext } from "./AuthContext";
 
-const AuthContext = createContext();
-const initialState = {
-  user: null,
-  isAuthenticated: false,
-};
 const FAKE_USER = {
   name: "Jack",
   email: "jack@example.com",
@@ -14,19 +9,23 @@ const FAKE_USER = {
   avatar: "https://i.pravatar.cc/100?u=zz",
 };
 
+const initialState = {
+  user: null,
+  isAuthenticated: false,
+};
+
 function reducer(state, action) {
   switch (action.type) {
     case "login":
       return { ...state, user: action.payload, isAuthenticated: true };
-
-    case "login":
+    case "logout":
       return { ...state, user: null, isAuthenticated: false };
     default:
       throw new Error("unkwon action");
   }
 }
 
-function authProvider({ children }) {
+function AuthProvider({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
     initialState
@@ -52,4 +51,4 @@ function useAuth() {
   return context;
 }
 
-export { authProvider, useAuth };
+export { AuthProvider, useAuth };

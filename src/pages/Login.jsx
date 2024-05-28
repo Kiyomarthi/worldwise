@@ -21,7 +21,7 @@ export default function Login() {
     function () {
       if (isAuthenticated) navigate("/app");
     },
-    [isAuthenticated]
+    [isAuthenticated, navigate]
   );
 
   return (
