@@ -1,39 +1,15 @@
 {
   "cities": [
     {
-      "id": "ad47",
-      "cityName": "Sredets",
-      "country": "Bulgaria",
-      "emoji": "🇧🇬",
-      "date": "2024-05-25T12:57:37.911Z",
-      "notes": "sdfsdfs",
+      "id": "9e8c",
+      "cityName": "Dimitrovgrad",
+      "country": "Serbia",
+      "emoji": "🇷🇸",
+      "date": "2024-05-28T08:01:53.884Z",
+      "notes": "sfd",
       "position": {
-        "lat": "42.26564024722564",
-        "lng": "27.119226637002253"
-      }
-    },
-    {
-      "id": "8e35",
-      "cityName": "Alunu",
-      "country": "Romania",
-      "emoji": "🇷🇴",
-      "date": "2024-05-25T12:57:37.911Z",
-      "notes": "sdfsdfssdf",
-      "position": {
-        "lat": "44.994759858526045",
-        "lng": "23.797851562500018"
-      }
-    },
-    {
-      "id": "e9b4",
-      "cityName": "Gheorghe Doja",
-      "country": "Romania",
-      "emoji": "🇷🇴",
-      "date": "2024-05-25T13:03:14.044Z",
-      "notes": "f",
-      "position": {
-        "lat": "44.66742753279657",
-        "lng": "27.182948911298677"
+        "lat": "43.01893479941601",
+        "lng": "22.82849191323846"
       }
     }
   ]
