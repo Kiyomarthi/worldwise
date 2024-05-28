@@ -4,18 +4,29 @@ import { createContext } from "react";
 
 const AuthContext = createContext();
 const initialState = {
-    user : null,
-    isAuthenticated: false;
-}
+  user: null,
+  isAuthenticated: false,
+};
 
-function reducer(state, action){
-    switch(action.type)
+function reducer(state, action) {
+  switch (action.type) {
+    case "login":
+      return { ...state, user: action.payload, isAuthenticated: true };
+
+    case "login":
+      return { ...state, user: null, isAuthenticated: false };
+    default:
+      throw new Error("unkwon action");
+  }
 }
 
 function authProvider({ children }) {
-    const [{user, isAuthenticated}, dispatch] = useReducer(reducer, initialState)
-    function login(user, password) {}
-    function logout() {}
+  const [{ user, isAuthenticated }, dispatch] = useReducer(
+    reducer,
+    initialState
+  );
+  function login(user, password) {}
+  function logout() {}
   return <AuthContext.Provider>{children}</AuthContext.Provider>;
 }
 
