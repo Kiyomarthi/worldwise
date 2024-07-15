@@ -23,6 +23,42 @@
         "lat": "41.76919450125772",
         "lng": "-3.5829105828328016"
       }
+    },
+    {
+      "id": "7d5a",
+      "cityName": "Kalesija",
+      "country": "Bosnia and Herzegovina",
+      "emoji": "🇧🇦",
+      "date": "2024-06-23T06:54:37.687Z",
+      "notes": "",
+      "position": {
+        "lat": "44.512062489936504",
+        "lng": "18.856339079930205"
+      }
+    },
+    {
+      "id": "43de",
+      "cityName": "Freihung",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-06-23T06:56:04.818Z",
+      "notes": "",
+      "position": {
+        "lat": "49.58014968296142",
+        "lng": "11.865644789372249"
+      }
+    },
+    {
+      "id": "9d20",
+      "cityName": "Ilijas",
+      "country": "Bosnia and Herzegovina",
+      "emoji": "🇧🇦",
+      "date": "2024-07-15T07:07:26.044Z",
+      "notes": "",
+      "position": {
+        "lat": "44.04231928926956",
+        "lng": "18.53448903959686"
+      }
     }
   ]
 }
