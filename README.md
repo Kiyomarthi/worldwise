@@ -5,7 +5,11 @@
 - The ability to record travel experiences to any city and view the countries and cities visited
 - **programming languages**: HTML, CSS, JS, React
 ## Preview
-https://github.com/user-attachments/assets/39905e42-76ac-43df-8e4d-223380933425
+
+
+https://github.com/user-attachments/assets/8db7365c-3850-4dd9-a789-9e5e3b8ae8b7
+
+
 ![Worldwise-Kiumarsi-react](https://github.com/user-attachments/assets/1d1b10c6-7865-4ad4-98b3-7d3ea0fa3a44)
 ![Worldwise-Kiumarsi-react2](https://github.com/user-attachments/assets/1f14f232-c271-42bb-bc5d-35e18395a6e8)
 ## how to use
