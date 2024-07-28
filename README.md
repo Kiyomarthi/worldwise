@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/8db7365c-3850-4dd9-a789-9e5e3b8ae8b7
 ![Worldwise-Kiumarsi-react](https://github.com/user-attachments/assets/1d1b10c6-7865-4ad4-98b3-7d3ea0fa3a44)
 ![Worldwise-Kiumarsi-react2](https://github.com/user-attachments/assets/1f14f232-c271-42bb-bc5d-35e18395a6e8)
 
-<div stye="color:red" >
+<div stye="color:red" color='red'>
 <video controls Autoplay>
  <source src="https://github.com/user-attachments/assets/8db7365c-3850-4dd9-a789-9e5e3b8ae8b7" type="video/mp4">
 </video>
