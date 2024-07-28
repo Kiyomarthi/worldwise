@@ -11,30 +11,25 @@
 
 ## how to use
 1. **Clone the repository**
-```
-git clone https://github.com/Kiyomarthi/worldwise.git
-```
-
+    ```
+    git clone https://github.com/Kiyomarthi/worldwise.git
+    ```
 2. **Navigate to the project directory**
-```
-cd worldwise
-```
-
+    ```
+    cd worldwise
+    ```
 3. **Install dependencies**
-```
-npm i
-```
-
+    ```
+    npm i
+    ```
 4. **Start the development server**
-```
-npm run dev
-```
-
+    ```
+    npm run dev
+    ```
 5. **Start the Fake Server**
-```
-npm run server
-```
-
+    ```
+    npm run server
+    ```
 ## links
 - [Resume](https://drive.google.com/file/d/1MSikW0hlfwjpsI_VPBEZjkt8BuPGj5z8/view?usp=sharing)
 - [Linkedin](https://www.linkedin.com/in/kiyomarthi/)
