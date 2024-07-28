@@ -22,6 +22,9 @@ https://github.com/user-attachments/assets/8db7365c-3850-4dd9-a789-9e5e3b8ae8b7
 <img src="https://github.com/user-attachments/assets/1d1b10c6-7865-4ad4-98b3-7d3ea0fa3a44">
 dfgdfgdfgdfgd
 </div>
+<div style="color: blue; background: red">
+hi sdfkl
+</div>
 
 ## how to use
 1. **Clone the repository**
