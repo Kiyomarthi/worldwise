@@ -3,34 +3,34 @@
 - travel registration program;
 - A program to record the cities you have visited so far.
 - The ability to record travel experiences to any city and view the countries and cities visited
-- ***programming languages**: HTML, CSS, JS, React
+- **programming languages**: HTML, CSS, JS, React
 ## Preview
 [https://drive.google.com/file/d/1BzTkJxxRhP8t_MkVy_X5DyyX0q2DevxD/view?usp=sharing]
 [https://drive.google.com/file/d/15g9cDr5-EJdEaBdSJsEnWvsIeh78eR_A/view?usp=drive_link]
 [https://drive.google.com/file/d/1KoeEnmtKgOf6wofglklUlSu52zlNq95u/view?usp=sharing]
 
 ## how to use
-1. Clone the repository
+1. **Clone the repository**
 ```
 git clone https://github.com/Kiyomarthi/worldwise.git
 ```
 
-2. Navigate to the project directory
+2. **Navigate to the project directory**
 ```
 cd worldwise
 ```
 
-3. Install dependencies
+3. **Install dependencies**
 ```
 npm i
 ```
 
-4. Start the development server
+4. **Start the development server**
 ```
 npm run dev
 ```
 
-5. Start the Fake Server
+5. **Start the Fake Server**
 ```
 npm run server
 ```
