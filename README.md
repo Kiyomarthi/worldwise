@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/500aeeba-cf4e-41e5-9cc4-39720ab39521)![image](https://github.com/user-attachments/assets/5bf9cf22-6d99-4aa2-bfa8-af9d520e6424)# Worldwise
+# Worldwise
 ## Description
 - travel registration program;
 - A program to record the cities you have visited so far.
@@ -16,8 +16,8 @@ https://github.com/user-attachments/assets/8db7365c-3850-4dd9-a789-9e5e3b8ae8b7
 
 <video controls Autoplay src="https://github.com/user-attachments/assets/8db7365c-3850-4dd9-a789-9e5e3b8ae8b7" type="video/mp4"> 
     
-<img src="https://github.com/user-attachments/assets/1d1b10c6-7865-4ad4-98b3-7d3ea0fa3a44" width="120">
-<img src="https://github.com/user-attachments/assets/1f14f232-c271-42bb-bc5d-35e18395a6e8" width="120">
+<img src="https://github.com/user-attachments/assets/1d1b10c6-7865-4ad4-98b3-7d3ea0fa3a44">
+<img src="https://github.com/user-attachments/assets/1f14f232-c271-42bb-bc5d-35e18395a6e8">
 
 ## how to use
 1. **Clone the repository**
