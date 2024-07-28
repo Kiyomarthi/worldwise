@@ -9,7 +9,7 @@
 <img src="https://github.com/user-attachments/assets/1d1b10c6-7865-4ad4-98b3-7d3ea0fa3a44" width="500">
 <img src="https://github.com/user-attachments/assets/1f14f232-c271-42bb-bc5d-35e18395a6e8" width="500">
     
-![]([https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/user-attachments/assets/41b754e0-1f0f-4c01-9413-c71b16d87a5c) | width=100)
+<img src="https://drive.google.com/file/d/1KoeEnmtKgOf6wofglklUlSu52zlNq95u/view">
 
 ## how to use
 1. **Clone the repository**
